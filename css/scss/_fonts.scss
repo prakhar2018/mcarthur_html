@@ -1,0 +1,468 @@
+@font-face {
+    font-family: 'fontello';
+    src: url('../fonts/fontello/fontello.eot?97843662');
+    src: url('../fonts/fontello/fontello.eot?97843662#iefix') format('embedded-opentype'),
+         url('../fonts/fontello/fontello.woff2?97843662') format('woff2'),
+         url('../fonts/fontello/fontello.woff?97843662') format('woff'),
+         url('../fonts/fontello/fontello.ttf?97843662') format('truetype'),
+         url('../fonts/fontello/fontello.svg?97843662#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+// Teko Fonts
+@font-face {
+    font-family: 'Teko-Regular';
+    src: url('../fonts/teko/Teko-Regular.eot');
+    src: url('../fonts/teko/Teko-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/teko/Teko-Regular.woff2') format('woff2'),
+        url('../fonts/teko/Teko-Regular.woff') format('woff'),
+        url('../fonts/teko/Teko-Regular.ttf') format('truetype'),
+        url('../fonts/teko/Teko-Regular.svg#Teko-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Teko-Light';
+    src: url('../fonts/teko/Teko-Light.eot');
+    src: url('../fonts/teko/Teko-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/teko/Teko-Light.woff2') format('woff2'),
+        url('../fonts/teko/Teko-Light.woff') format('woff'),
+        url('../fonts/teko/Teko-Light.ttf') format('truetype'),
+        url('../fonts/teko/Teko-Light.svg#Teko-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Teko-Bold';
+    src: url('../fonts/teko/Teko-Bold.eot');
+    src: url('../fonts/teko/Teko-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/teko/Teko-Bold.woff2') format('woff2'),
+        url('../fonts/teko/Teko-Bold.woff') format('woff'),
+        url('../fonts/teko/Teko-Bold.ttf') format('truetype'),
+        url('../fonts/teko/Teko-Bold.svg#Teko-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Teko-Medium';
+    src: url('../fonts/teko/Teko-Medium.eot');
+    src: url('../fonts/teko/Teko-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/teko/Teko-Medium.woff2') format('woff2'),
+        url('../fonts/teko/Teko-Medium.woff') format('woff'),
+        url('../fonts/teko/Teko-Medium.ttf') format('truetype'),
+        url('../fonts/teko/Teko-Medium.svg#Teko-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Teko-SemiBold';
+    src: url('../fonts/teko/Teko-SemiBold.eot');
+    src: url('../fonts/teko/Teko-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/teko/Teko-SemiBold.woff2') format('woff2'),
+        url('../fonts/teko/Teko-SemiBold.woff') format('woff'),
+        url('../fonts/teko/Teko-SemiBold.ttf') format('truetype'),
+        url('../fonts/teko/Teko-SemiBold.svg#Teko-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+// Sofia Fonts
+@font-face {
+    font-family: 'SofiaPro';
+    src: url('../fonts/sofiapro/SofiaPro-Black.eot');
+    src: url('../fonts/sofiapro/SofiaPro-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sofiapro/SofiaPro-Black.woff2') format('woff2'),
+        url('../fonts/sofiapro/SofiaPro-Black.woff') format('woff'),
+        url('../fonts/sofiapro/SofiaPro-Black.ttf') format('truetype'),
+        url('../fonts/sofiapro/SofiaPro-Black.svg#SofiaPro-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SofiaPro-BlackItalic';
+    src: url('../fonts/sofiapro/SofiaPro-BlackItalic.eot');
+    src: url('../fonts/sofiapro/SofiaPro-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sofiapro/SofiaPro-BlackItalic.woff2') format('woff2'),
+        url('../fonts/sofiapro/SofiaPro-BlackItalic.woff') format('woff'),
+        url('../fonts/sofiapro/SofiaPro-BlackItalic.ttf') format('truetype'),
+        url('../fonts/sofiapro/SofiaPro-BlackItalic.svg#SofiaPro-BlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SofiaPro-BoldItalic';
+    src: url('../fonts/sofiapro/SofiaPro-BoldItalic.eot');
+    src: url('../fonts/sofiapro/SofiaPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sofiapro/SofiaPro-BoldItalic.woff2') format('woff2'),
+        url('../fonts/sofiapro/SofiaPro-BoldItalic.woff') format('woff'),
+        url('../fonts/sofiapro/SofiaPro-BoldItalic.ttf') format('truetype'),
+        url('../fonts/sofiapro/SofiaPro-BoldItalic.svg#SofiaPro-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SofiaPro-ExtraLightItalic';
+    src: url('../fonts/sofiapro/SofiaPro-ExtraLightItalic.eot');
+    src: url('../fonts/sofiapro/SofiaPro-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sofiapro/SofiaPro-ExtraLightItalic.woff2') format('woff2'),
+        url('../fonts/sofiapro/SofiaPro-ExtraLightItalic.woff') format('woff'),
+        url('../fonts/sofiapro/SofiaPro-ExtraLightItalic.ttf') format('truetype'),
+        url('../fonts/sofiapro/SofiaPro-ExtraLightItalic.svg#SofiaPro-ExtraLightItalic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SofiaPro-Bold';
+    src: url('../fonts/sofiapro/SofiaPro-Bold.eot');
+    src: url('../fonts/sofiapro/SofiaPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sofiapro/SofiaPro-Bold.woff2') format('woff2'),
+        url('../fonts/sofiapro/SofiaPro-Bold.woff') format('woff'),
+        url('../fonts/sofiapro/SofiaPro-Bold.ttf') format('truetype'),
+        url('../fonts/sofiapro/SofiaPro-Bold.svg#SofiaPro-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SofiaPro-ExtraLight';
+    src: url('../fonts/sofiapro/SofiaPro-ExtraLight.eot');
+    src: url('../fonts/sofiapro/SofiaPro-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sofiapro/SofiaPro-ExtraLight.woff2') format('woff2'),
+        url('../fonts/sofiapro/SofiaPro-ExtraLight.woff') format('woff'),
+        url('../fonts/sofiapro/SofiaPro-ExtraLight.ttf') format('truetype'),
+        url('../fonts/sofiapro/SofiaPro-ExtraLight.svg#SofiaPro-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SofiaPro-Light';
+    src: url('../fonts/sofiapro/SofiaPro-Light.eot');
+    src: url('../fonts/sofiapro/SofiaPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sofiapro/SofiaPro-Light.woff2') format('woff2'),
+        url('../fonts/sofiapro/SofiaPro-Light.woff') format('woff'),
+        url('../fonts/sofiapro/SofiaPro-Light.ttf') format('truetype'),
+        url('../fonts/sofiapro/SofiaPro-Light.svg#SofiaPro-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SofiaPro-LightItalic';
+    src: url('../fonts/sofiapro/SofiaPro-LightItalic.eot');
+    src: url('../fonts/sofiapro/SofiaPro-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sofiapro/SofiaPro-LightItalic.woff2') format('woff2'),
+        url('../fonts/sofiapro/SofiaPro-LightItalic.woff') format('woff'),
+        url('../fonts/sofiapro/SofiaPro-LightItalic.ttf') format('truetype'),
+        url('../fonts/sofiapro/SofiaPro-LightItalic.svg#SofiaPro-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SofiaPro-Medium';
+    src: url('../fonts/sofiapro/SofiaPro-Medium.eot');
+    src: url('../fonts/sofiapro/SofiaPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sofiapro/SofiaPro-Medium.woff2') format('woff2'),
+        url('../fonts/sofiapro/SofiaPro-Medium.woff') format('woff'),
+        url('../fonts/sofiapro/SofiaPro-Medium.ttf') format('truetype'),
+        url('../fonts/sofiapro/SofiaPro-Medium.svg#SofiaPro-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SofiaPro-SemiBold';
+    src: url('../fonts/sofiapro/SofiaPro-SemiBold.eot');
+    src: url('../fonts/sofiapro/SofiaPro-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sofiapro/SofiaPro-SemiBold.woff2') format('woff2'),
+        url('../fonts/sofiapro/SofiaPro-SemiBold.woff') format('woff'),
+        url('../fonts/sofiapro/SofiaPro-SemiBold.ttf') format('truetype'),
+        url('../fonts/sofiapro/SofiaPro-SemiBold.svg#SofiaPro-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SofiaPro-MediumItalic';
+    src: url('../fonts/sofiapro/SofiaPro-MediumItalic.eot');
+    src: url('../fonts/sofiapro/SofiaPro-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sofiapro/SofiaPro-MediumItalic.woff2') format('woff2'),
+        url('../fonts/sofiapro/SofiaPro-MediumItalic.woff') format('woff'),
+        url('../fonts/sofiapro/SofiaPro-MediumItalic.ttf') format('truetype'),
+        url('../fonts/sofiapro/SofiaPro-MediumItalic.svg#SofiaPro-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SofiaProBlack';
+    src: url('../fonts/sofiapro/SofiaProBlack.eot');
+    src: url('../fonts/sofiapro/SofiaProBlack.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sofiapro/SofiaProBlack.woff2') format('woff2'),
+        url('../fonts/sofiapro/SofiaProBlack.woff') format('woff'),
+        url('../fonts/sofiapro/SofiaProBlack.ttf') format('truetype'),
+        url('../fonts/sofiapro/SofiaProBlack.svg#SofiaProBlack') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SofiaPro-SemiBoldItalic';
+    src: url('../fonts/sofiapro/SofiaPro-SemiBoldItalic.eot');
+    src: url('../fonts/sofiapro/SofiaPro-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sofiapro/SofiaPro-SemiBoldItalic.woff2') format('woff2'),
+        url('../fonts/sofiapro/SofiaPro-SemiBoldItalic.woff') format('woff'),
+        url('../fonts/sofiapro/SofiaPro-SemiBoldItalic.ttf') format('truetype'),
+        url('../fonts/sofiapro/SofiaPro-SemiBoldItalic.svg#SofiaPro-SemiBoldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SofiaPro';
+    src: url('../fonts/sofiapro/SofiaPro.eot');
+    src: url('../fonts/sofiapro/SofiaPro.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sofiapro/SofiaPro.woff2') format('woff2'),
+        url('../fonts/sofiapro/SofiaPro.woff') format('woff'),
+        url('../fonts/sofiapro/SofiaPro.ttf') format('truetype'),
+        url('../fonts/sofiapro/SofiaPro.svg#SofiaPro') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SofiaPro-Italic';
+    src: url('../fonts/sofiapro/SofiaPro-Italic.eot');
+    src: url('../fonts/sofiapro/SofiaPro-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sofiapro/SofiaPro-Italic.woff2') format('woff2'),
+        url('../fonts/sofiapro/SofiaPro-Italic.woff') format('woff'),
+        url('../fonts/sofiapro/SofiaPro-Italic.ttf') format('truetype'),
+        url('../fonts/sofiapro/SofiaPro-Italic.svg#SofiaPro-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SofiaProMedium';
+    src: url('../fonts/sofiapro/SofiaProMedium-Italic.eot');
+    src: url('../fonts/sofiapro/SofiaProMedium-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sofiapro/SofiaProMedium-Italic.woff2') format('woff2'),
+        url('../fonts/sofiapro/SofiaProMedium-Italic.woff') format('woff'),
+        url('../fonts/sofiapro/SofiaProMedium-Italic.ttf') format('truetype'),
+        url('../fonts/sofiapro/SofiaProMedium-Italic.svg#SofiaProMedium-Italic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SofiaProLight-Italic';
+    src: url('../fonts/sofiapro/SofiaProLight-Italic.eot');
+    src: url('../fonts/sofiapro/SofiaProLight-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sofiapro/SofiaProLight-Italic.woff2') format('woff2'),
+        url('../fonts/sofiapro/SofiaProLight-Italic.woff') format('woff'),
+        url('../fonts/sofiapro/SofiaProLight-Italic.ttf') format('truetype'),
+        url('../fonts/sofiapro/SofiaProLight-Italic.svg#SofiaProLight-Italic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SofiaProExtraLight';
+    src: url('../fonts/sofiapro/SofiaProExtraLight.eot');
+    src: url('../fonts/sofiapro/SofiaProExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sofiapro/SofiaProExtraLight.woff2') format('woff2'),
+        url('../fonts/sofiapro/SofiaProExtraLight.woff') format('woff'),
+        url('../fonts/sofiapro/SofiaProExtraLight.ttf') format('truetype'),
+        url('../fonts/sofiapro/SofiaProExtraLight.svg#SofiaProExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SofiaProBold';
+    src: url('../fonts/sofiapro/SofiaProBold.eot');
+    src: url('../fonts/sofiapro/SofiaProBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sofiapro/SofiaProBold.woff2') format('woff2'),
+        url('../fonts/sofiapro/SofiaProBold.woff') format('woff'),
+        url('../fonts/sofiapro/SofiaProBold.ttf') format('truetype'),
+        url('../fonts/sofiapro/SofiaProBold.svg#SofiaProBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SofiaProBlack-Italic';
+    src: url('../fonts/sofiapro/SofiaProBlack-Italic.eot');
+    src: url('../fonts/sofiapro/SofiaProBlack-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sofiapro/SofiaProBlack-Italic.woff2') format('woff2'),
+        url('../fonts/sofiapro/SofiaProBlack-Italic.woff') format('woff'),
+        url('../fonts/sofiapro/SofiaProBlack-Italic.ttf') format('truetype'),
+        url('../fonts/sofiapro/SofiaProBlack-Italic.svg#SofiaProBlack-Italic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SofiaProExtraLight-Italic';
+    src: url('../fonts/sofiapro/SofiaProExtraLight-Italic.eot');
+    src: url('../fonts/sofiapro/SofiaProExtraLight-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sofiapro/SofiaProExtraLight-Italic.woff2') format('woff2'),
+        url('../fonts/sofiapro/SofiaProExtraLight-Italic.woff') format('woff'),
+        url('../fonts/sofiapro/SofiaProExtraLight-Italic.ttf') format('truetype'),
+        url('../fonts/sofiapro/SofiaProExtraLight-Italic.svg#SofiaProExtraLight-Italic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SofiaProLight';
+    src: url('../fonts/sofiapro/SofiaProLight.eot');
+    src: url('../fonts/sofiapro/SofiaProLight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sofiapro/SofiaProLight.woff2') format('woff2'),
+        url('../fonts/sofiapro/SofiaProLight.woff') format('woff'),
+        url('../fonts/sofiapro/SofiaProLight.ttf') format('truetype'),
+        url('../fonts/sofiapro/SofiaProLight.svg#SofiaProLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SofiaProBold-Italic';
+    src: url('../fonts/sofiapro/SofiaProBold-Italic.eot');
+    src: url('../fonts/sofiapro/SofiaProBold-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sofiapro/SofiaProBold-Italic.woff2') format('woff2'),
+        url('../fonts/sofiapro/SofiaProBold-Italic.woff') format('woff'),
+        url('../fonts/sofiapro/SofiaProBold-Italic.ttf') format('truetype'),
+        url('../fonts/sofiapro/SofiaProBold-Italic.svg#SofiaProBold-Italic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SofiaProMedium';
+    src: url('../fonts/sofiapro/SofiaProMedium.eot');
+    src: url('../fonts/sofiapro/SofiaProMedium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sofiapro/SofiaProMedium.woff2') format('woff2'),
+        url('../fonts/sofiapro/SofiaProMedium.woff') format('woff'),
+        url('../fonts/sofiapro/SofiaProMedium.ttf') format('truetype'),
+        url('../fonts/sofiapro/SofiaProMedium.svg#SofiaProMedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SofiaProRegular-Italic';
+    src: url('../fonts/sofiapro/SofiaProRegular-Italic.eot');
+    src: url('../fonts/sofiapro/SofiaProRegular-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sofiapro/SofiaProRegular-Italic.woff2') format('woff2'),
+        url('../fonts/sofiapro/SofiaProRegular-Italic.woff') format('woff'),
+        url('../fonts/sofiapro/SofiaProRegular-Italic.ttf') format('truetype'),
+        url('../fonts/sofiapro/SofiaProRegular-Italic.svg#SofiaProRegular-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SofiaProRegular';
+    src: url('../fonts/sofiapro/SofiaProRegular.eot');
+    src: url('../fonts/sofiapro/SofiaProRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sofiapro/SofiaProRegular.woff2') format('woff2'),
+        url('../fonts/sofiapro/SofiaProRegular.woff') format('woff'),
+        url('../fonts/sofiapro/SofiaProRegular.ttf') format('truetype'),
+        url('../fonts/sofiapro/SofiaProRegular.svg#SofiaProRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SofiaProUltraLight-Italic';
+    src: url('../fonts/sofiapro/SofiaProUltraLight-Italic.eot');
+    src: url('../fonts/sofiapro/SofiaProUltraLight-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sofiapro/SofiaProUltraLight-Italic.woff2') format('woff2'),
+        url('../fonts/sofiapro/SofiaProUltraLight-Italic.woff') format('woff'),
+        url('../fonts/sofiapro/SofiaProUltraLight-Italic.ttf') format('truetype'),
+        url('../fonts/sofiapro/SofiaProUltraLight-Italic.svg#SofiaProUltraLight-Italic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SofiaProUltraLight';
+    src: url('../fonts/sofiapro/SofiaProUltraLight.eot');
+    src: url('../fonts/sofiapro/SofiaProUltraLight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sofiapro/SofiaProUltraLight.woff2') format('woff2'),
+        url('../fonts/sofiapro/SofiaProUltraLight.woff') format('woff'),
+        url('../fonts/sofiapro/SofiaProUltraLight.ttf') format('truetype'),
+        url('../fonts/sofiapro/SofiaProUltraLight.svg#SofiaProUltraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SofiaProSemiBold';
+    src: url('../fonts/sofiapro/SofiaProSemiBold.eot');
+    src: url('../fonts/sofiapro/SofiaProSemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sofiapro/SofiaProSemiBold.woff2') format('woff2'),
+        url('../fonts/sofiapro/SofiaProSemiBold.woff') format('woff'),
+        url('../fonts/sofiapro/SofiaProSemiBold.ttf') format('truetype'),
+        url('../fonts/sofiapro/SofiaProSemiBold.svg#SofiaProSemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SofiaProSemiBold-Italic';
+    src: url('../fonts/sofiapro/SofiaProSemiBold-Italic.eot');
+    src: url('../fonts/sofiapro/SofiaProSemiBold-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sofiapro/SofiaProSemiBold-Italic.woff2') format('woff2'),
+        url('../fonts/sofiapro/SofiaProSemiBold-Italic.woff') format('woff'),
+        url('../fonts/sofiapro/SofiaProSemiBold-Italic.ttf') format('truetype'),
+        url('../fonts/sofiapro/SofiaProSemiBold-Italic.svg#SofiaProSemiBold-Italic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
