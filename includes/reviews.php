@@ -12,7 +12,7 @@
 
         <div class="row mt-5">
             <div class="col-12 col-lg-4">
-                <div class="card h-100 bg-white">
+                <div class="card h-100 bg-white radius-pill-10">
                     <div class="author position-relative mb-4">
                         <div class="five-star"></div>
                         <h4>Tom</h4>
@@ -25,7 +25,7 @@
             </div>
 
             <div class="col-12 col-lg-4">
-                <div class="card h-100 bg-white">
+                <div class="card h-100 bg-white radius-pill-10">
                     <div class="author position-relative mb-4">
                         <div class="five-star"></div>
                         <h4>Kylie</h4>
@@ -38,7 +38,7 @@
             </div>
 
             <div class="col-12 col-lg-4">
-                <div class="card h-100 bg-white">
+                <div class="card h-100 bg-white radius-pill-10">
                     <div class="author position-relative mb-4">
                         <div class="five-star"></div>
                         <h4>Bill & June</h4>

@@ -45,12 +45,10 @@
 
                     </div>
 
-                    <!-- Add navigation buttons -->
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
+                    <!-- <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div> -->
 
-                    <!-- Add pagination if needed -->
-                    <div class="swiper-pagination"></div>
+                    <!-- <div class="swiper-pagination"></div> -->
                 </div>             
             </div>
         </div>

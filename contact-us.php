@@ -1,7 +1,7 @@
 <?php
 require_once 'includes/header.php';
 ?>
-<section class="section-2 bg-style lazy banner-sm text-white" data-bg="images/contact-us-banner.jpg">
+<section class="section-2 position-relative lazy text-white d-flex align-items-center justify-content-center" data-bg="images/contact-us-banner-1.jpg">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12 col-xl-7">
@@ -11,6 +11,9 @@ require_once 'includes/header.php';
                 </div>
             </div>            
         </div>
+    </div>
+    <div class="shape">
+        <img class="lazy" data-src="images/trans-shape.png" alt="" width="100%" height="100%">
     </div>
 </section>
 
@@ -42,7 +45,7 @@ require_once 'includes/header.php';
 
                         <div class="contact-card d-flex gap-4">
                             <div class="icon-outer text-white">
-                                <i class="icon-location"></i>
+                                <i class="icon-communication"></i>
                             </div>
                             <div>
                                 <h4>Postal Address</h4>
@@ -52,7 +55,7 @@ require_once 'includes/header.php';
 
                         <div class="contact-card d-flex gap-4">
                             <div class="icon-outer text-white">
-                                <i class="icon-location"></i>
+                                <i class="icon-phone-outline"></i>
                             </div>
                             <div>
                                 <h4>Phone</h4>
@@ -63,7 +66,7 @@ require_once 'includes/header.php';
                         </div>
                         <div class="contact-card d-flex gap-4">
                             <div class="icon-outer text-white">
-                                <i class="icon-location"></i>
+                                <i class="icon-mail"></i>
                             </div>
                             <div>
                                 <h4>Email</h4>
@@ -75,7 +78,7 @@ require_once 'includes/header.php';
                     </div>
                 </div>
                 <div class="col-12 col-lg-6">
-                    <div class="primary-bg text-white py-5 px-5">
+                    <div class="primary-bg h-100 text-white py-5 px-5">
                         <h3>Get In Touch</h3>
                         <div class="row">
                             <div class="col-12 col-sm-6 mb-4">
@@ -102,6 +105,31 @@ require_once 'includes/header.php';
                             </div>
                         </div> 
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-19 position-relative pt-5">
+    <div class="map">
+        <iframe class="lazy" data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3561.450159456985!2d153.10780907543534!3d-26.79379147671816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b9399563545f231%3A0xd918f3ef078c9702!2s8%20Deefa%20St%2C%20Caloundra%20West%20QLD%204551%2C%20Australia!5e0!3m2!1sen!2sin!4v1727945089496!5m2!1sen!2sin" 
+            width="100%" 
+            height="700" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>       
+    </div>
+    <div class="shape">
+        <img class="lazy" data-src="images/trans-shape.png" alt="" width="100%" height="100%">
+    </div>
+    <div class="container position-relative">
+        <div class="row">
+            <div class="col-12">
+                <div class="car-image">
+                    <img class="lazy" data-src="images/car.png" alt="Car" width="500" height="" />
                 </div>
             </div>
         </div>

@@ -2,7 +2,7 @@
 require_once 'includes/header.php';
 ?>
 
-<section class="section-2 bg-style lazy banner-sm text-white" data-bg="images/service-details-banner.jpg">
+<section class="section-2 position-relative lazy text-white d-flex align-items-center justify-content-center" data-bg="images/service-details-banner-1.jpg">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12 col-xl-7">
@@ -13,9 +13,11 @@ require_once 'includes/header.php';
                         <a class="btn btn-primary water-drop" href="#" title="Book Now">Book Now</a>
                     </div>
                 </div>
-            </div>
-            
+            </div>            
         </div>
+    </div>
+    <div class="shape">
+        <img class="lazy" data-src="images/trans-shape.png" alt="" width="100%" height="100%">
     </div>
 </section>
 
@@ -195,7 +197,7 @@ require_once 'includes/reviews.php';
         <div class="row">
             <div class="col-12 col-lg-6">
                 <div class="text-center">                                       
-                    <img class="lazy" data-src="images/half-15.jpg" alt="User" width="auto" height="">
+                    <img class="lazy radius-pill-10" data-src="images/half-15.jpg" alt="User" width="auto" height="">
                 </div>
             </div>
             <div class="col-12 col-lg-6">
@@ -228,7 +230,7 @@ require_once 'includes/reviews.php';
             </div>    
             <div class="col-12 col-lg-6">
                 <div class="text-center">                                       
-                    <img class="lazy" data-src="images/half-16.jpg" alt="User" width="auto" height="">
+                    <img class="lazy radius-pill-10" data-src="images/half-16.jpg" alt="User" width="auto" height="">
                 </div>
             </div>        
         </div>
@@ -239,7 +241,7 @@ require_once 'includes/reviews.php';
         <div class="row">
             <div class="col-12 col-lg-6">
                 <div class="text-center">                                       
-                    <img class="lazy" data-src="images/half-17.jpg" alt="User" width="auto" height="">
+                    <img class="lazy radius-pill-10" data-src="images/half-17.jpg" alt="User" width="auto" height="">
                 </div>
             </div>
             <div class="col-12 col-lg-6">

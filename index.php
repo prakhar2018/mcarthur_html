@@ -5,81 +5,9 @@ require_once 'includes/header.php';
     <p>24 HOURS / 7 DAYS Emergency Service in Sunshine Coast</p>
 </div>
 
-<section class="section-2 banner-xl lazy text-white" data-bg="images/banner-home.png">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-md-6">
-                <div class="banner-content">
-                    <h1>Emergency Plumbing Services In Sunshine Coast</h1>
-                    <div class="row">
-                        <div class="col-12 col-sm-3">
-                            <div class="icon-card text-uppercase text-center">
-                                <div>
-                                    <i class="icon-water-drop"></i>
-                                </div>
-                                <span>Premium <br> Searvices</span>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-3">
-                            <div class="icon-card text-uppercase text-center">
-                                <div>
-                                    <i class="icon-water-drop"></i>
-                                </div>
-                                <span>30 Years <br> experience</span>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-3">
-                            <div class="icon-card text-uppercase text-center">
-                                <div>
-                                    <i class="icon-water-drop"></i>
-                                </div>
-                                <span>5 Star <br> Rated</span>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-3">
-                            <div class="icon-card text-uppercase text-center">
-                                <div>
-                                    <i class="icon-water-drop"></i>
-                                </div>
-                                <span>100 satisfaction <br> guaranteed</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="car-image mt-4">
-                        <img class="lazy" data-src="images/car.png" alt="Car" width="500" height="" />
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6">
-                <div class="booking-form mx-auto text-center bg-white p-5">
-                    <div class="section-heading shap">
-                        <h2>Book <span>Appointment</span></h2>
-                    </div>
-                    <div class="mt-4">
-                        <input class="form-control" placeholder="First Name" />
-                    </div>
-                    <div class="mt-4">
-                        <input class="form-control" placeholder="Last Name" />
-                    </div>
-                    <div class="mt-4">
-                        <input class="form-control" placeholder="Email" />
-                    </div>
-
-                    <div class="mt-4">
-                        <input class="form-control" placeholder="Phone no" />
-                    </div>
-                    <div class="mt-4">
-                       <textarea class="form-control" name="" id="" placeholder="Message"></textarea>
-                    </div>
-                    <div class="mt-4 d-grid">
-                        <button class="btn btn-primary water-drop">Submit</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+<?php
+require_once 'includes/banner-1.php';
+?>
 
 <section class="section-3 py-3 py-lg-5">
     <div class="container">
@@ -215,20 +143,20 @@ require_once 'includes/header.php';
                             <span>Founder</span>
                         </div>
                         <div class="mt-0 mt-lg-4">
-                            <img class="lazy" data-src="images/signature.jpg" alt="signature" height="" width="">
+                            <img class="lazy radius-pill-10" data-src="images/signature.jpg" alt="signature" height="" width="">
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-12 col-lg-6">
                 <div class="text-center">                                       
-                    <img class="lazy" data-src="images/two-man.jpg" alt="User" width="auto" height="">
+                    <img class="lazy radius-pill-10" data-src="images/two-man.jpg" alt="User" width="auto" height="">
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="shap-large  lazy w-100" data-bg="images/shap-large.png"></div>
+    <div class="shap-large lazy w-100" data-bg="images/shap-large.png"></div>
 </section>
 
 <section class="section-6 py-5">
@@ -323,7 +251,7 @@ require_once 'includes/header.php';
                 <div class="row cards mb-3 mb-lg-5">
                     <div class="col-1 col-lg-1">
                         <div class="drop position-static">
-                            <i class="icon-water-tap"></i>
+                            <i class="icon-shield"></i>
                         </div>
                     </div>
                     <div class="col-11 col-lg-11">
@@ -333,23 +261,11 @@ require_once 'includes/header.php';
                         </div>
                     </div>
                 </div>
+              
                 <div class="row cards mb-3 mb-lg-5">
                     <div class="col-1 col-lg-1">
                         <div class="drop position-static">
-                            <i class="icon-water-tap"></i>
-                        </div>
-                    </div>
-                    <div class="col-11 col-lg-11">
-                        <div class="ps-0 ps-lg-4">
-                            <h3>30 Years  Experience</h3>
-                            <p>At vero eos et accusamus et iusto odio dignissimos duc imus qui blanditiis praes entium voluptatum.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row cards mb-3 mb-lg-5">
-                    <div class="col-1 col-lg-1">
-                        <div class="drop position-static">
-                            <i class="icon-water-tap"></i>
+                            <i class="icon-group-2"></i>
                         </div>
                     </div>
                     <div class="col-11 col-lg-11">
@@ -362,7 +278,7 @@ require_once 'includes/header.php';
                 <div class="row cards mb-3 mb-lg-5">
                     <div class="col-1 col-lg-1">
                         <div class="drop position-static">
-                            <i class="icon-water-tap"></i>
+                            <i class="icon-badge"></i>
                         </div>
                     </div>
                     <div class="col-11 col-lg-11">
@@ -375,7 +291,7 @@ require_once 'includes/header.php';
                 <div class="row cards mb-3 mb-lg-5">
                     <div class="col-1 col-lg-1">
                         <div class="drop position-static">
-                            <i class="icon-water-tap"></i>
+                            <i class="icon-guarantee"></i>
                         </div>
                     </div>
                     <div class="col-11 col-lg-11">
@@ -392,23 +308,23 @@ require_once 'includes/header.php';
                     <div class="row four-image-set">
                         <div class="col-7">
                             <div class="image">
-                                <img class="lazy" data-src="images/half-1.jpg" alt="half" width="100%" height="" />
+                                <img class="lazy radius-pill-10" data-src="images/half-1.jpg" alt="half" width="100%" height="" />
                             </div>
                         </div>
                         <div class="col-5">
                             <div class="image d-flex align-items-end h-100">
-                                <img class="lazy" data-src="images/half-2.jpg" alt="half" width="100%" height="" />
+                                <img class="lazy radius-pill-10" data-src="images/half-2.jpg" alt="half" width="100%" height="" />
                             </div>
                         </div>
 
                         <div class="col-4">
                             <div class="image mt-4">
-                                <img class="lazy" data-src="images/half-3.jpg" alt="half" width="100%" height="" />
+                                <img class="lazy radius-pill-10" data-src="images/half-3.jpg" alt="half" width="100%" height="" />
                             </div>
                         </div>
                         <div class="col-8">
                             <div class="image mt-4">
-                                <img class="lazy" data-src="images/half-4.jpg" alt="half" width="100%" height="" />
+                                <img class="lazy radius-pill-10" data-src="images/half-4.jpg" alt="half" width="100%" height="" />
                             </div>
                         </div>
                     </div>
@@ -436,12 +352,12 @@ require_once 'includes/header.php';
                     <div class="row four-image-set">
                         <div class="col-6">
                             <div class="image">
-                                <img class="lazy" data-src="images/half-5.jpg" alt="half" width="100%" height="" />
+                                <img class="lazy radius-pill-10" data-src="images/half-5.jpg" alt="half" width="100%" height="" />
                             </div>
                         </div>
                         <div class="col-6">
                             <div class="image mt-5">
-                                <img class="lazy" data-src="images/half-6.jpg" alt="half" width="100%" height="" />
+                                <img class="lazy radius-pill-10" data-src="images/half-6.jpg" alt="half" width="100%" height="" />
                             </div>
                         </div>                       
                     </div>
@@ -506,7 +422,7 @@ require_once 'includes/reviews.php';
             <div class="col-12 col-lg-4">
                 <div class="work-card position-relative">
                     <div class="circle text-white d-flex align-items-center justify-content-center lazy" data-bg="images/shape-circle.jpg">
-                        <i class="icon-edit"></i>
+                        <i class="icon-content-writing"></i>
                     </div>
                     <div class="position-relative text-white drop-outer">
                         <div class="drop">1</div>
@@ -520,7 +436,7 @@ require_once 'includes/reviews.php';
             <div class="col-12 col-lg-4">
                 <div class="work-card position-relative">
                     <div class="circle text-white d-flex align-items-center justify-content-center lazy" data-bg="images/shape-circle.jpg">
-                        <i class="icon-edit"></i>
+                        <i class="icon-feedback"></i>
                     </div>
                     <div class="position-relative text-white drop-outer">
                         <div class="drop">2</div>
@@ -534,7 +450,7 @@ require_once 'includes/reviews.php';
             <div class="col-12 col-lg-4">
                 <div class="work-card position-relative">
                     <div class="circle text-white d-flex align-items-center justify-content-center lazy" data-bg="images/shape-circle.jpg">
-                        <i class="icon-edit"></i>
+                        <i class="icon-hand-shake"></i>
                     </div>
                     <div class="position-relative text-white drop-outer">
                         <div class="drop">3</div>

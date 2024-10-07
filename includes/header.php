@@ -51,22 +51,19 @@
 	<link rel="shortcut icon" type="image/x-icon" href="#" />
 </head>
 <body data-instant-intensity="mousedown">
-<section class="section-1 d-flex flex-column align-items-center">
-		<div class="container d-flex align-items-center justify-content-between">
-			<nav class="navbar navbar-expand-xl bg-white">
-			
-				<a href="index.php" title="Sliver Drains">
-					<img class="lazy" data-src="images/logo.jpg" alt="Logo" height="" width="" />
+	<header class="section-1">
+		<div class="container">
+			<nav class="navbar navbar-expand-xl bg-white">		
+				<a class="logo" href="index.php" title="Mcarthur">
+					<img class="lazy" data-src="images/logo.jpg" alt="Logo" height="" width="200" />
 				</a>
-
-			
 
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="icon-menu"></span>
 				</button>	
 
 				<div class="collapse text-uppercase justify-content-center navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav mx-auto mt-4 mt-xl-0">
+					<ul class="navbar-nav">
 						<li>
 							<a href="index.php" title="Home">Home</a>
 						</li>	
@@ -102,20 +99,8 @@
 								54928477
 							</a>
 						</div>
-					</div>
-					<!-- <div class="booking-icon">
-						<div class="me-3"> 
-							<a href="#" class="btn btn-outline-primary" title="1300 000 000">
-								<i class="icon-phone"></i>
-							</a>
-						</div>
-						<div>
-							<a href="#" class="btn btn-primary" title="Book Online">
-								<i class="icon-cursor"></i>
-							</a>
-						</div>
-					</div> -->
+					</div>				
 				</div>			
 			</nav>
 		</div>		
-</section>
+	</header>

@@ -2,7 +2,7 @@
 require_once 'includes/header.php';
 ?>
 
-<section class="section-2 bg-style lazy banner-sm text-white" data-bg="images/suburb-banner.jpg">
+<section class="section-2 position-relative lazy text-white d-flex align-items-center justify-content-center" data-bg="images/suburb-banner-1.jpg">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12 col-xl-7">
@@ -17,14 +17,17 @@ require_once 'includes/header.php';
             
         </div>
     </div>
+    <div class="shape">
+        <img class="lazy" data-src="images/trans-shape.png" alt="" width="100%" height="100%">
+    </div>
 </section>
 <?php
-    require_once('includes/service-area.php')
+    require_once('includes/service-area.php');
+    require_once('includes/service-2.php');
 ?>
 
-<section class="section-6 py-5">
-    <div class="container">
-    
+<!-- <section class="section-6 py-5">
+    <div class="container">    
         <div class="row justify-content-center pb-5">
             <div class="col-12 col-lg-11">
                 <div class="section-heading shap text-center">
@@ -137,7 +140,7 @@ require_once 'includes/header.php';
             <div class="col-12 col-sm-6 col-lg-4 col-xl-3 card-outer mb-4 mb-xl-4">
                 <div class="card text-center h-100">
                     <div class="mx-auto text-white circle d-flex justify-content-center align-items-center mb-4">
-                       <i class="icon-pipe-273"></i>
+                       <i class="icon-valve-280"></i>
                     </div>
                     <div class="content text-uppercase position-relative">
                        <h3>Thermostatic mixing Valves</h3>
@@ -148,7 +151,7 @@ require_once 'includes/header.php';
             <div class="col-12 col-sm-6 col-lg-4 col-xl-3 card-outer mb-4 mb-xl-4">
                 <div class="card text-center h-100">
                     <div class="mx-auto text-white circle d-flex justify-content-center align-items-center mb-4">
-                       <i class="icon-pipe-273"></i>
+                       <i class="icon-pipe"></i>
                     </div>
                     <div class="content text-uppercase position-relative">
                        <h3>Backflow prevention devices</h3>
@@ -160,7 +163,7 @@ require_once 'includes/header.php';
             
         </div>
     </div>
-</section>
+</section> -->
 
 <section class="section-7 overflow-hidden my-lg-5">
     <div class="container-fluid px-0">
@@ -213,12 +216,12 @@ require_once 'includes/header.php';
                     <div class="row four-image-set">
                         <div class="col-6">
                             <div class="image">
-                                <img class="lazy" data-src="images/half-18.jpg" alt="half" width="100%" height="" />
+                                <img class="lazy radius-pill-10" data-src="images/half-18.jpg" alt="half" width="100%" height="" />
                             </div>
                         </div>
                         <div class="col-6">
                             <div class="image mt-5">
-                                <img class="lazy" data-src="images/half-19.jpg" alt="half" width="100%" height="" />
+                                <img class="lazy radius-pill-10" data-src="images/half-19.jpg" alt="half" width="100%" height="" />
                             </div>
                         </div>                       
                     </div>
@@ -241,21 +244,21 @@ require_once 'includes/header.php';
             <div class="col-12 col-lg-4 order-2 order-lg-1">
                 <div class="card border-0 card-left position-relative  text-start text-lg-end mb-3 mb-lg-5">
                     <div class="icon-outer position-absolute text-white">
-                        <i class="icon-pipe-273"></i>
+                        <i class="icon-shield"></i>
                     </div>
                     <h3>30 Years  Experience</h3>
                     <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praes entium voluptatum deleniti atque corru pti quos dolores.</p>
                 </div>
                 <div class="card border-0 card-left position-relative text-start text-lg-end mb-3 mb-lg-5">
                     <div class="icon-outer position-absolute text-white">
-                        <i class="icon-pipe-273"></i>
+                        <i class="icon-group"></i>
                     </div>
                     <h3>Family Owned and Operated</h3>
                     <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praes entium voluptatum deleniti atque corru pti quos dolores.</p>
                 </div>
                 <div class="card border-0 card-left position-relative text-start text-lg-end mb-3 mb-lg-5">
                     <div class="icon-outer position-absolute text-white">
-                        <i class="icon-pipe-273"></i>
+                        <i class="icon-home"></i>
                     </div>
                     <h3>Safety to Your Home</h3>
                     <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praes entium voluptatum deleniti atque corru pti quos dolores.</p>
@@ -269,21 +272,21 @@ require_once 'includes/header.php';
             <div class="col-12 col-lg-4 position-relative order-3 order-lg-3">
                 <div class="card border-0 card-right text-start mb-5">
                     <div class="icon-outer position-absolute text-white">
-                        <i class="icon-pipe-273"></i>
+                        <i class="icon-badge"></i>
                     </div>
                     <h3>Well Trained and Certified</h3>
                     <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praes entium voluptatum deleniti atque corru pti quos dolores.</p>
                 </div>
                 <div class="card border-0 position-relative card-right  text-start mb-5">
                     <div class="icon-outer position-absolute text-white">
-                        <i class="icon-pipe-273"></i>
+                        <i class="icon-feedback"></i>
                     </div>
                     <h3>Professional and Experienced</h3>
                     <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praes entium voluptatum deleniti atque corru pti quos dolores.</p>
                 </div>
                 <div class="card border-0 position-relative card-right text-start mb-5">
                     <div class="icon-outer position-absolute text-white">
-                        <i class="icon-pipe-273"></i>
+                        <i class="icon-guarantee"></i>
                     </div>
                     <h3>100% Satisfaction Guaranteed</h3>
                     <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praes entium voluptatum deleniti atque corru pti quos dolores.</p>

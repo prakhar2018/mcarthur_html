@@ -1,5 +1,4 @@
-
-<section class="section-13 py-5">
+<section class="section-13 radius-pill-10 py-5">
 	<div class="container pb-5">
 		<div class="row pb-5">
             <div class="col-12 col-lg-11">

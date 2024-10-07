@@ -8,7 +8,6 @@ $(document).ready(function(){
 
 
 const locationSlider = new Swiper('.company-logo-slider', {        
-    speed: 800,
     breakpoints: {               
         300: {
             slidesPerView: 1.5,
@@ -32,12 +31,25 @@ const locationSlider = new Swiper('.company-logo-slider', {
             slidesPerView:5,
         },        
     },
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+    speed: 800,
+    navigation: false, 
+    pagination: false, 
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false, 
     },
 });
 
+
+const reviews = new Swiper('.reviews', {        
+    navigation: false, 
+    pagination: false, 
+    slidesPerView: 1,
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false, 
+    },   
+});
 
 
 $('body').on('click','.js-video-modal',function(){
