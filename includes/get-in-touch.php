@@ -1,6 +1,6 @@
-<section class="section-15 mt-5 py-0 py-lg-5 position-relative text-white">
+<section class="section-15 mt-0 mt-xl-5 py-5 position-relative text-white">
     <div class="overlay-bg-image lazy" data-bg="images/bg-section-15.jpg"></div>
-    <div class="container py-lg-5">
+    <div class="container py-4 py-lg-5">
         <div class="row justify-content-center pb-5">
             <div class="col-12 col-lg-11">
                 <div class="section-heading shap text-center">

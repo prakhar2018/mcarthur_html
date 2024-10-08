@@ -1,7 +1,7 @@
 <section class="section-8 position-relative text-white py-5">
     <div class="overlay-bg-image lazy" data-bg="images/bg-section-8.jpg"></div>
 
-    <div class="container pt-5">
+    <div class="container pt-0 pt-xl-5">
         <div class="row justify-content-center">
             <div class="col-12 col-lg-12">
                 <div class="section-heading text-center shap shap-white">
@@ -10,8 +10,8 @@
             </div>
         </div>
 
-        <div class="row mt-5">
-            <div class="col-12 col-lg-4">
+        <div class="row mt-0 mt-xl-5">
+            <div class="col-12 col-sm-6 col-xl-4 mb-4 mb-xl-0">
                 <div class="card h-100 bg-white radius-pill-10">
                     <div class="author position-relative mb-4">
                         <div class="five-star"></div>
@@ -24,7 +24,7 @@
                 </div>
             </div>
 
-            <div class="col-12 col-lg-4">
+            <div class="col-12 col-sm-6 col-xl-4 mb-4 mb-xl-0">
                 <div class="card h-100 bg-white radius-pill-10">
                     <div class="author position-relative mb-4">
                         <div class="five-star"></div>
@@ -37,7 +37,7 @@
                 </div>
             </div>
 
-            <div class="col-12 col-lg-4">
+            <div class="col-12 col-sm-6 col-xl-4 mb-4 mb-xl-0">
                 <div class="card h-100 bg-white radius-pill-10">
                     <div class="author position-relative mb-4">
                         <div class="five-star"></div>

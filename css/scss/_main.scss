@@ -516,9 +516,11 @@ textarea.form-control {
 
 .shap-large{
 	min-height: 120px;
-	background-repeat: no-repeat;
-    background-size: 100% 100% !important;
+	background-repeat: no-repeat;    
 	margin-top: 40px;
+	&[data-bg] {
+		background-size: 100% 100%;
+	}
 }	
 
 .drop{

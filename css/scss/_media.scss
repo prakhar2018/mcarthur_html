@@ -1,15 +1,257 @@
-@media (max-width: 1350px) {
-	
+@media (max-width: 1300px) {
+	.section-1{
+		ul{
+			li{
+				padding: 0px 10px;
+			}
+		}
+	}
 }
 
 
 @media (max-width: 1200px) {
+	button, 
+	.btn{
+		padding: 12px 20px;	
+		font-size: 1.2em;
+		&.phone-no,
+		&.water-drop{
+			position: relative;
+			&:before{				
+				top: 0px;			
+				left: 0px;
+			}
+		}	
+	}
 	
+	h1{
+		font-size: 2.5em;
+	}
+	h2{
+		font-size: 2em;
+	}
+	h3{
+		font-size: 1em;
+	}
+
+
+	.navbar-toggler
+	{
+		position: absolute;
+		right: 0;
+		border: 1px solid $primary_color;
+		color: $primary_color;
+		padding:0px;
+        font-size: 1.8em;
+        line-height: 0;
+		top: 15px;
+		width: 60px;
+        height: 50px;
+		&:focus{
+			box-shadow: none;
+		}
+	}
+	.striped{
+		p{
+			font-size: 1.2em;
+		}
+	}
+	.drop{
+		top: -65px;
+	}
+	.shap-large{
+		margin-top: 0px;
+		display: none;
+		&[data-bg] {
+			background-size: contain;
+		}
+	}
+	.section-heading{
+		&.shap{
+			h2{
+				margin-bottom:0px;
+			}
+		}
+	}
+	.section-1{	
+		ul{
+			padding: 0px;
+			li{
+				padding: 8px 0px;
+			}
+		}
+		.buttons{
+			position: absolute;
+			right: 80px;
+			top: 15px;			
+		}
+	}
+	.section-2{
+		&.banner-xl{
+			min-height: auto;
+		}
+		.car-image{
+			position: absolute;
+			bottom: 0;
+			left: 20px;
+			img{
+				width: 400px;
+			}
+		}
+		.booking-form{
+			width: auto;
+			h2{
+				font-size: 2em;
+			}
+		}
+		.banner-content {
+			.icon-card{
+				margin-left: -20px;
+			}
+		}
+	}
+
+
+	.section-3{
+		.drop-image{
+			margin-top: -100px;
+		}
+		.years-of-experience{
+			left: 0;
+		}
+	}
+
+	.section-4{
+		.service-card {
+			.content-body {
+				h3{
+					font-size: 1.4em;
+				}
+			}
+		}
+	}
+	
+	.section-5{
+		.cards {
+			h3{
+				font-size: 1.2em;
+			}
+		}
+	}
+
+	.section-7{
+		.content-body{
+			width: auto;
+		}
+	}
+
+	.section-9{
+		.work-card {
+			.circle{
+				width: 110px;
+    			height: 110px;
+				i{
+					font-size: 2.5em;
+				}
+			}
+			.drop-outer{
+				margin-top: 70px;
+			}
+		}
+	}
+
+	.section-12{
+		.accordion-item {
+			.accordion-header {
+				.accordion-button{
+					font-size: 1.2em;
+				}
+			}
+		}
+	}
+
+	.section-15{
+		.car-image{
+			position: static;
+			margin-top: 60px;
+			img{
+				width: 400px;
+			}
+		}
+	}
+	.section-16{
+		margin-top: 0px;
+		h2{
+			font-size: 1.4em;
+		}
+	}
 }
 
 @media (max-width: 992px) {	
 	
-	
+	.section-2{
+		.car-image{
+			position: static;
+		}
+	}
+
+	.section-3{
+		.drop-image{
+			margin-top: 50px;
+		}
+	}
+
+	.section-5{
+		.author{
+			padding: 35px;
+		}
+	}
+	.section-6{
+		.card-outer {
+			.card{
+				min-height: auto;
+			}
+		}
+	}
+
+	.section-7{
+		.lazy{
+			min-height: 500px;
+			width: calc(100% + 75px);
+			// img{
+				
+			// }
+		}
+		.content-body{
+			min-height: auto;
+			padding: 100px 0px;
+		}
+	}
+
+	.section-12{
+		.accordion{
+			padding: 40px 35px 40px 35px;
+			.accordion-item{
+				.accordion-header{
+					.accordion-button{
+						padding: 15px 20px;
+					}
+				}
+			}
+		}
+	}
+
+	.section-13 {
+		article{
+			h3{
+				font-size: 1.4em;
+				padding: 25px 0px 10px 0px;
+			}
+		}
+	}
+	.section-16{
+		margin-bottom: 20px;
+	}
 }
 
 
@@ -20,7 +262,13 @@
 	    overflow: hidden;
     }
     
-    
+    .section-1{
+		.booking-primary{
+			.water-drop{
+				display: none;
+			}
+		}
+	}
 }
 
 @media (max-width: 576px) {
@@ -28,8 +276,46 @@
 		width: 350px;
 	}
 	
+	.striped {
+		p{
+			font-size: 1em;
+		}
+	}
 
+	.section-1{
+		.logo{
+			img{
+				width: 180px;
+			}
+		}
+		.booking-primary{
+			.phone-no{
+				display: none;
+			}
+		}
+	}
 	
+	.section-2{
+		.banner-content {
+			.icon-card{
+				margin-left: -5px;
+			}
+		}
+	}
+
+	.section-3{
+		.years-of-experience{
+			left: 16px;
+			top: 50px;
+			width: 100px;
+		}
+	}
+
+	.section-12 {
+		.accordion{
+			padding: 15px;
+		}
+	}
 }
 
 @media (min-width: 576px) {

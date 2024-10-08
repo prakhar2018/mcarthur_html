@@ -67,6 +67,7 @@ $icon_font:'fontello';
 	justify-content: $justify;
 }
 
+
 [class^="icon-"]:before, 
 [class*=" icon-"]:before {
   font-family: $icon_font;
@@ -127,4 +128,4 @@ $icon_font:'fontello';
 .icon-youtube-play:before { content: '\f16a'; } /* '' */
 .icon-instagram:before { content: '\f16d'; } /* '' */
 .icon-linkedin:before { content: '\f318'; } /* '' */
-
+.icon-menu:before { content: '\e823'; } /* '' */

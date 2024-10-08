@@ -8,7 +8,7 @@
             </div>           
         </div>
 
-        <div class="row suburb radius-pill-10 g-0 mt-0 mt-lg-5">      
+        <div class="row suburb radius-pill-10 g-0 mt-5">      
             <div class="col-12">
                 <div class="primary-bg text-center text-white py-3">
                     <h3>Sunshine Coast</h3>

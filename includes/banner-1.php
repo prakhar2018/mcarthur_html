@@ -1,11 +1,11 @@
 <section class="section-2  banner-xl lazy text-white d-flex justify-content-center align-items-center" data-bg="images/banner-home.png">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-lg-6">
                 <div class="banner-content pt-5 mt-5">
                     <h1>Emergency Plumbing Services In Sunshine Coast</h1>
                     <div class="row">
-                        <div class="col-12 col-sm-3">
+                        <div class="col-4 col-sm-3">
                             <div class="icon-card text-uppercase text-center">
                                 <div>
                                     <i class="icon-water-drop"></i>
@@ -13,7 +13,7 @@
                                 <span>Premium <br> Searvices</span>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-3">
+                        <div class="col-4 col-sm-3">
                             <div class="icon-card text-uppercase text-center">
                                 <div>
                                     <i class="icon-water-drop"></i>
@@ -21,7 +21,7 @@
                                 <span>30 Years <br> experience</span>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-3">
+                        <div class="col-4 col-sm-3">
                             <div class="icon-card text-uppercase text-center">
                                 <div>
                                     <i class="icon-water-drop"></i>
@@ -29,7 +29,7 @@
                                 <span>5 Star <br> Rated</span>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-3">
+                        <div class="col-4 col-sm-3">
                             <div class="icon-card text-uppercase text-center">
                                 <div>
                                     <i class="icon-water-drop"></i>
@@ -43,8 +43,8 @@
                     </div>                
                 </div>
             </div>
-            <div class="col-12 col-md-6">
-                <div class="booking-form mx-auto text-center bg-white p-5 mt-5">
+            <div class="col-12 col-lg-6">
+                <div class="booking-form mx-auto text-center bg-white p-4 p-xl-5 mt-5">
                     <div class="section-heading shap">
                         <h2>Book <span>Appointment</span></h2>
                     </div>

@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-12 col-lg-12 mb-4 mb-xl-0">
                 <div class="row">
-                    <div class="col-12 col-md-12 col-lg-4">
+                    <div class="col-12 col-md-12 col-lg-4  mb-4 mb-md-0">
                         <div class="pe-0 pe-lg-5">
                             <div class="mb-4">
                                 <img class="lazy" data-src="images/logo.jpg" alt="Logo" width="" height="" />
@@ -16,7 +16,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-2">
+                    <div class="col-12 col-md-6 col-lg-2 mb-4 mb-md-0">
                         <div class="section-heading shap shap-start">
                             <h2>Navigation</h2>
                         </div>
@@ -41,7 +41,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-3">
+                    <div class="col-12 col-md-6 col-lg-3 mb-4 mb-md-0">
                         <div class="section-heading shap shap-start">
                             <h2>Contact Us</h2>
                         </div>

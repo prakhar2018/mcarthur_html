@@ -1,6 +1,6 @@
 <section class="section-12 radius-pill-10 text-white position-relative py-5">
     <div class="overlay-bg-image lazy" data-bg="images/bg-section-8.jpg"></div>
-    <div class="container py-0 py-lg-5">
+    <div class="container py-0 py-xl-5">
         <div class="row justify-content-center">
             <div class="col-12 col-lg-11">
                 <div class="section-heading shap shap-white text-center">
@@ -11,7 +11,7 @@
 
         <div class="row justify-content-center mt-5">
             <div class="col-12 col-xl-11">
-                <div class="accordion bg-white" id="accordionFaq">
+                <div class="accordion radius-pill-10 bg-white" id="accordionFaq">
                     <div class="accordion-item radius-pill-10 accordion-active mb-3">
                         <div class="accordion-header" id="faqOne">
                             <button class="accordion-button radius-pill-10" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">

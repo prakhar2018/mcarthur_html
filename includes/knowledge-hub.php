@@ -1,5 +1,5 @@
 <section class="section-13 radius-pill-10 py-5">
-	<div class="container pb-5">
+	<div class="container pb-0 pb-xl-5">
 		<div class="row pb-5">
             <div class="col-12 col-lg-11">
                 <div class="section-heading shap text-center">
@@ -9,8 +9,8 @@
 		</div>
 
 		<div class="row">
-			<div class="col-12 col-md-6 col-xl-4">
-                <article>
+			<div class="col-12 col-md-6 col-xl-4 mb-4 mb-xl-0">
+                <article class="radius-pill-10">
                     <picture>
                         <img 
                             alt="" 
@@ -32,8 +32,8 @@
                 </article>
 			</div>
 
-            <div class="col-12 col-md-6 col-xl-4">
-                <article>
+            <div class="col-12 col-md-6 col-xl-4 mb-4 mb-xl-0">
+                <article class="radius-pill-10">
                     <picture>
                         <img 
                             alt="" 
@@ -55,8 +55,8 @@
                 </article>
 			</div>
 
-            <div class="col-12 col-md-6 col-xl-4">
-                <article>
+            <div class="col-12 col-md-6 col-xl-4 mb-4 mb-xl-0">
+                <article class="radius-pill-10">
                     <picture>
                         <img 
                             alt="" 

@@ -10,10 +10,10 @@ $(document).ready(function(){
 const locationSlider = new Swiper('.company-logo-slider', {        
     breakpoints: {               
         300: {
-            slidesPerView: 1.5,
-        },
-        500: {
-            slidesPerView: 2.5,
+            slidesPerView: 1.3,
+        },        
+        700: {
+            slidesPerView: 2.3,
         },
         992: {
             slidesPerView: 3.5,
