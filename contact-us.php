@@ -31,7 +31,7 @@ require_once 'includes/header.php';
         <div class="contact-form">
             <div class="row">
                 <div class="col-12 col-lg-6">                   
-                    <div class="py-5 px-5">
+                    <div class="py-3 py-lg-5 px-3 px-lg-5">
                         <h3>Contact Info</h3>
                         <div class="contact-card d-flex gap-4">
                             <div class="icon-outer text-white">
@@ -78,7 +78,7 @@ require_once 'includes/header.php';
                     </div>
                 </div>
                 <div class="col-12 col-lg-6">
-                    <div class="primary-bg h-100 text-white py-5 px-5">
+                    <div class="primary-bg h-100 text-white py-3 py-lg-5 px-3 px-lg-5">
                         <h3>Get In Touch</h3>
                         <div class="row">
                             <div class="col-12 col-sm-6 mb-4">
@@ -122,10 +122,11 @@ require_once 'includes/header.php';
             referrerpolicy="no-referrer-when-downgrade">
         </iframe>       
     </div>
-    <div class="shape">
+    <div class="shape ">
         <img class="lazy" data-src="images/trans-shape.png" alt="" width="100%" height="100%">
     </div>
-    <div class="container position-relative">
+
+    <div class="container  mb-5 mb-xl-0 position-relative">
         <div class="row">
             <div class="col-12">
                 <div class="car-image">

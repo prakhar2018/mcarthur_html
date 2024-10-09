@@ -2,48 +2,50 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-6">
-                <div class="banner-content">
+                <div class="banner-content h-100 d-flex align-items-center justify-content-center flex-column">
                     <h1>Emergency Plumbing Services In Sunshine Coast</h1>
-                    <div class="row">
-                        <div class="col-12 col-sm-3">
-                            <div class="icon-card text-uppercase text-center">
-                                <div>
-                                    <i class="icon-water-drop"></i>
+                    <div class="w-100">
+                        <div class="row">
+                            <div class="col-12 col-sm-3">
+                                <div class="icon-card text-uppercase text-center">
+                                    <div>
+                                        <i class="icon-water-drop"></i>
+                                    </div>
+                                    <span>Premium <br> Searvices</span>
                                 </div>
-                                <span>Premium <br> Searvices</span>
                             </div>
-                        </div>
-                        <div class="col-12 col-sm-3">
-                            <div class="icon-card text-uppercase text-center">
-                                <div>
-                                    <i class="icon-water-drop"></i>
+                            <div class="col-12 col-sm-3">
+                                <div class="icon-card text-uppercase text-center">
+                                    <div>
+                                        <i class="icon-water-drop"></i>
+                                    </div>
+                                    <span>30 Years <br> experience</span>
                                 </div>
-                                <span>30 Years <br> experience</span>
                             </div>
-                        </div>
-                        <div class="col-12 col-sm-3">
-                            <div class="icon-card text-uppercase text-center">
-                                <div>
-                                    <i class="icon-water-drop"></i>
+                            <div class="col-12 col-sm-3">
+                                <div class="icon-card text-uppercase text-center">
+                                    <div>
+                                        <i class="icon-water-drop"></i>
+                                    </div>
+                                    <span>5 Star <br> Rated</span>
                                 </div>
-                                <span>5 Star <br> Rated</span>
                             </div>
-                        </div>
-                        <div class="col-12 col-sm-3">
-                            <div class="icon-card text-uppercase text-center">
-                                <div>
-                                    <i class="icon-water-drop"></i>
+                            <div class="col-12 col-sm-3">
+                                <div class="icon-card text-uppercase text-center">
+                                    <div>
+                                        <i class="icon-water-drop"></i>
+                                    </div>
+                                    <span>100 satisfaction <br> guaranteed</span>
                                 </div>
-                                <span>100 satisfaction <br> guaranteed</span>
                             </div>
-                        </div>
-                    </div>                                     
+                        </div>                                     
+                    </div>
                 </div>
             </div>  
             <div class="col-12 col-md-6">
                 <div class="position-relative">
                     <div class="man-image">
-                        <img class="lazy" data-src="images/two-man-banner.png" alt="" width="500" height="" />
+                        <img class="lazy" data-src="images/two-man-banner.png" alt="" width="450" height="" />
                     </div>
                 </div>
             </div>         

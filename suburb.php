@@ -23,10 +23,10 @@ require_once 'includes/header.php';
 </section>
 <?php
     require_once('includes/service-area.php');
-    require_once('includes/service-2.php');
+    //require_once('includes/service-1.php');
 ?>
 
-<!-- <section class="section-6 py-5">
+<section class="section-6 py-5">
     <div class="container">    
         <div class="row justify-content-center pb-5">
             <div class="col-12 col-lg-11">
@@ -163,7 +163,7 @@ require_once 'includes/header.php';
             
         </div>
     </div>
-</section> -->
+</section>
 
 <section class="section-7 overflow-hidden my-lg-5">
     <div class="container-fluid px-0">
@@ -172,13 +172,13 @@ require_once 'includes/header.php';
                 <div class="lazy h-100" data-bg="images/man-image-up-4.jpg"></div>
             </div>
             <div class="col-12 col-lg-6">                
-                <div class="content-body d-flex align-items-center d-flex justify-content-center ps-0 ps-lg-5 ms-0 ms-lg-4">
+                <div class="content-body d-flex align-items-center d-flex justify-content-center ps-4 ps-xl-5 ms-0 ms-xl-4">
                     <div class="section-heading shap shap-start text-white">
                         <h2>Book a Sunshine Coast Plumber <span>Today</span></h2>
                         <p>We’re a locally owned and operated business on the Sunshine Coast.</p>
                         <div class="mt-4 mt-lg-5">
                             <a class="btn btn-primary water-drop" href="#" title="Book Now">Book Now</a>
-                            <a class="btn btn-secondary phone-no ms-0 ms-sm-3" href="tel:54928477" title="54928477">54928477</a>
+                            <a class="btn btn-secondary phone-no ms-3" href="tel:54928477" title="54928477">54928477</a>
                         </div>
                     </div>
                 </div>
@@ -187,7 +187,7 @@ require_once 'includes/header.php';
     </div>
 </section>
 
-<section class="section-5 position-relative py-lg-5">
+<section class="section-5 position-relative py-5">
     <div class="container">
         <div class="row justify-content-center pb-5">
             <div class="col-12 col-lg-11">
@@ -199,19 +199,21 @@ require_once 'includes/header.php';
 
         <div class="row">
            
-            <div class="col-12 col-lg-6">
-                <h3>24-7 Emergency Service Plumber</h3>
-                <p>Save yourself time, money and hassle in the future by calling the most dependable&nbsp;emergency plumbing service Sunshine Coast&nbsp;has to offer today. Based in Caloundra, McArthur Plumbing takes pride in being the top plumber in Sunshine Coast when it comes to delivering results that you can rely on.</p>         
-                <br>
-                <p>Staying up to date with routine&nbsp;plumbing maintenance&nbsp;and repairs will ensure your pipes, appliances and fixtures will stand the test of time.</p>
-                <br>
-                <p>
-                    Over the years, we’ve built upon our skills and continued to utilise the best tools and equipment in the industry.
+            <div class="col-12 col-lg-6 order-2 order-lg-1">
+                <div class="mt-5 mt-lg-0">
+                    <h3>24-7 Emergency Service Plumber</h3>
+                    <p>Save yourself time, money and hassle in the future by calling the most dependable&nbsp;emergency plumbing service Sunshine Coast&nbsp;has to offer today. Based in Caloundra, McArthur Plumbing takes pride in being the top plumber in Sunshine Coast when it comes to delivering results that you can rely on.</p>         
                     <br>
-                    Our team is available 24/7 for all plumbing emergencies to ensure your home or business continues running smoothly.
-                </p>                
+                    <p>Staying up to date with routine&nbsp;plumbing maintenance&nbsp;and repairs will ensure your pipes, appliances and fixtures will stand the test of time.</p>
+                    <br>
+                    <p>
+                        Over the years, we’ve built upon our skills and continued to utilise the best tools and equipment in the industry.
+                        <br>
+                        Our team is available 24/7 for all plumbing emergencies to ensure your home or business continues running smoothly.
+                    </p>  
+                </div>              
             </div>
-            <div class="col-12 col-lg-6">
+            <div class="col-12 col-lg-6 order-1 order-lg-2">
                 <div class="ps-0 ps-lg-5">
                     <div class="row four-image-set">
                         <div class="col-6">
@@ -270,21 +272,21 @@ require_once 'includes/header.php';
                 </div>
             </div>
             <div class="col-12 col-lg-4 position-relative order-3 order-lg-3">
-                <div class="card border-0 card-right text-start mb-5">
+                <div class="card border-0 card-right text-start mb-3 mb-lg-5">
                     <div class="icon-outer position-absolute text-white">
                         <i class="icon-badge"></i>
                     </div>
                     <h3>Well Trained and Certified</h3>
                     <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praes entium voluptatum deleniti atque corru pti quos dolores.</p>
                 </div>
-                <div class="card border-0 position-relative card-right  text-start mb-5">
+                <div class="card border-0 position-relative card-right  text-start mb-3 mb-lg-5">
                     <div class="icon-outer position-absolute text-white">
                         <i class="icon-feedback"></i>
                     </div>
                     <h3>Professional and Experienced</h3>
                     <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praes entium voluptatum deleniti atque corru pti quos dolores.</p>
                 </div>
-                <div class="card border-0 position-relative card-right text-start mb-5">
+                <div class="card border-0 position-relative card-right text-start mb-3 mb-lg-5">
                     <div class="icon-outer position-absolute text-white">
                         <i class="icon-guarantee"></i>
                     </div>

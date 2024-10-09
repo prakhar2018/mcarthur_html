@@ -2,45 +2,47 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-6">
-                <div class="banner-content pt-5 mt-5">
+                <div class="banner-content h-100 d-flex align-items-center justify-content-center flex-column">
                     <h1>Emergency Plumbing Services In Sunshine Coast</h1>
-                    <div class="row">
-                        <div class="col-4 col-sm-3">
-                            <div class="icon-card text-uppercase text-center">
-                                <div>
-                                    <i class="icon-water-drop"></i>
+                    <div class="w-100">
+                        <div class="row">
+                            <div class="col-4 col-sm-3">
+                                <div class="icon-card text-uppercase text-center">
+                                    <div>
+                                        <i class="icon-award-badge-quality"></i>
+                                    </div>
+                                    <span>Premium <br> Searvices</span>
                                 </div>
-                                <span>Premium <br> Searvices</span>
                             </div>
-                        </div>
-                        <div class="col-4 col-sm-3">
-                            <div class="icon-card text-uppercase text-center">
-                                <div>
-                                    <i class="icon-water-drop"></i>
+                            <div class="col-4 col-sm-3">
+                                <div class="icon-card text-uppercase text-center">
+                                    <div>
+                                        <i class="icon-badge"></i>
+                                    </div>
+                                    <span>30 Years <br> experience</span>
                                 </div>
-                                <span>30 Years <br> experience</span>
                             </div>
-                        </div>
-                        <div class="col-4 col-sm-3">
-                            <div class="icon-card text-uppercase text-center">
-                                <div>
-                                    <i class="icon-water-drop"></i>
+                            <div class="col-4 col-sm-3">
+                                <div class="icon-card text-uppercase text-center">
+                                    <div>
+                                        <i class="icon-rate"></i>
+                                    </div>
+                                    <span>5 Star <br> Rated</span>
                                 </div>
-                                <span>5 Star <br> Rated</span>
                             </div>
-                        </div>
-                        <div class="col-4 col-sm-3">
-                            <div class="icon-card text-uppercase text-center">
-                                <div>
-                                    <i class="icon-water-drop"></i>
+                            <div class="col-4 col-sm-3">
+                                <div class="icon-card text-uppercase text-center">
+                                    <div>
+                                        <i class="icon-guarantee"></i>
+                                    </div>
+                                    <span>100 satisfaction <br> guaranteed</span>
                                 </div>
-                                <span>100 satisfaction <br> guaranteed</span>
                             </div>
-                        </div>
-                    </div>  
-                    <div class="car-image mt-5">
-                        <img class="lazy" data-src="images/car.png" alt="Car" width="500" height="" />
-                    </div>                
+                        </div>  
+                        <div class="car-image mt-5">
+                            <img class="lazy" data-src="images/car.png" alt="Car" width="500" height="" />
+                        </div> 
+                    </div>               
                 </div>
             </div>
             <div class="col-12 col-lg-6">

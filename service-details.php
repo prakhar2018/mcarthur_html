@@ -23,15 +23,14 @@ require_once 'includes/header.php';
 
 <section class="section-3 position-relative py-3 py-lg-5">
     <div class="container">
-        <div class="row">
-           
+        <div class="row">           
             <div class="col-12 col-lg-6">
                 <div class="image">
                     <img class="lazy" data-src="images/half-10.jpg" alt="" width="100%" height="" />
                 </div>
             </div>
             <div class="col-12 col-lg-6">
-                <div class="ps-0 ps-lg-5">
+                <div class="mt-5 mt-lg-0 ps-0 ps-lg-5">
                     <div class="section-heading shap shap-start">
                         <h2>Blocked Drain Plumber Sunshine <span>Coast</span></h2>
                         <p>Need a reliable blocked drain plumber in Sunshine Coast? McArthur Plumbing offers blocked drain repair and drainage services in and around the Sunshine Coast area. Blocked drains are a fairly common plumbing issue that homeowners encounter. There can be many causes of these blockages, the most common is pesky tree roots.</p>                    
@@ -46,15 +45,15 @@ require_once 'includes/header.php';
 <section class="section-3 position-relative py-3 py-lg-5">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-lg-6">
-                <div class="pe-0 pe-lg-5">
+            <div class="col-12 col-lg-6 order-2 order-lg-1">
+                <div class="mt-5 mt-lg-0 pe-0 pe-lg-5">
                     <div class="section-heading shap shap-start">
                         <h2>Blocked Drain Plumber Sunshine <span>Coast</span></h2>
                         <p>Need a reliable blocked drain plumber in Sunshine Coast? McArthur Plumbing offers blocked drain repair and drainage services in and around the Sunshine Coast area. Blocked drains are a fairly common plumbing issue that homeowners encounter. There can be many causes of these blockages, the most common is pesky tree roots.</p>                    
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-lg-6">
+            <div class="col-12 col-lg-6 order-1 order-lg-2">
                 <div class="row four-image-set">
                     <div class="col-6">
                         <div class="image">
@@ -86,7 +85,7 @@ require_once 'includes/header.php';
                         <p>We’re a locally owned and operated business on the Sunshine Coast.</p>
                         <div class="mt-4 mt-lg-5">
                             <a class="btn btn-primary water-drop" href="#" title="Book Now">Book Now</a>
-                            <a class="btn btn-secondary phone-no ms-0 ms-sm-3" href="tel:54928477" title="54928477">54928477</a>
+                            <a class="btn btn-secondary phone-no ms-3" href="tel:54928477" title="54928477">54928477</a>
                         </div>
                     </div>
                 </div>
@@ -98,8 +97,8 @@ require_once 'includes/header.php';
 <section class="section-3 position-relative py-3 py-lg-5">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-lg-6">
-                <div class="pe-0 pe-lg-5">
+            <div class="col-12 col-lg-6 order-2 order-lg-1">
+                <div class="mt-5 mt-lg-0 pe-0 pe-lg-5">
                     <div class="section-heading shap shap-start">
                         <h2>Hydro Jetting Sunshine <span>Coast</span></h2>
                         <p>You may be familiar with the using of snakes, which simply pushes through clogs deep into your pipes using the path of least resistance. The problem with using snakes is that they only create openings through the clogs without fully cleaning up build-up in the pipes that are causing the clogs. This is where hydro jetter technology comes in.</p>                    
@@ -108,7 +107,7 @@ require_once 'includes/header.php';
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-lg-6">
+            <div class="col-12 col-lg-6 order-1 order-lg-2">
                 <div class="image">
                     <img class="lazy" data-src="images/half-11.jpg" alt="" width="100%" height="" />
                 </div>
@@ -127,7 +126,7 @@ require_once 'includes/header.php';
                 </div>
             </div> 
             <div class="col-12 col-lg-6">
-                <div class="ps-0 ps-lg-5">
+                <div class="mt-5 mt-lg-0 ps-0 ps-lg-5">
                     <div class="section-heading shap shap-start">
                         <h2>What Has Caused Your <span>Blockage?</span></h2>
                         <p>Once cleared, our plumbers will use a high quality RIDGID drain camera to inspect and take images of your drain. We’ll be able to let you know the cause of the blockage.</p>                    
@@ -149,8 +148,8 @@ require_once 'includes/reviews.php';
 <section class="section-3 position-relative py-3 py-lg-5">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-lg-6">
-                <div class="pe-0 pe-lg-5">
+            <div class="col-12 col-lg-6 order-2 order-lg-1">
+                <div class="mt-5 mt-lg-0 pe-0 pe-lg-5">
                     <div class="section-heading shap shap-start">
                         <h2>Blockages Caused by Tree <span>Roots</span></h2>
                         <p>Tree roots are one of the most common causes of <b>blocked drains.</b> <br>
@@ -165,7 +164,7 @@ require_once 'includes/reviews.php';
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-lg-6">
+            <div class="col-12 col-lg-6 order-1 order-lg-2">
                 <div class="row four-image-set">
                     <div class="col-6">
                         <div class="image">
@@ -197,11 +196,11 @@ require_once 'includes/reviews.php';
         <div class="row">
             <div class="col-12 col-lg-6">
                 <div class="text-center">                                       
-                    <img class="lazy radius-pill-10" data-src="images/half-15.jpg" alt="User" width="auto" height="">
+                    <img class="lazy radius-pill-10" data-src="images/half-15.jpg" alt="User" width="100%" height="">
                 </div>
             </div>
             <div class="col-12 col-lg-6">
-                <div class="ps-0 ps-lg-5">
+                <div class="mt-5 mt-lg-0 ps-0 ps-lg-5">
                     <p>If your kitchen sink is <b>blocked</b>, it could be due to a build up of fat.</p>                
                     <p>You can try pouring a pot of boiling water into the drain. In many cases, this is enough to loosen or dissolve the <b>blockage</b> without having to resort to more drastic measures.</p>
                     <br>
@@ -217,8 +216,8 @@ require_once 'includes/reviews.php';
     <div class="container">        
         <div class="row">
            
-            <div class="col-12 col-lg-6">
-                <div class="pe-0 pe-lg-5">
+            <div class="col-12 col-lg-6 order-2 order-lg-1">
+                <div class="mt-5 mt-lg-0 pe-0 pe-lg-5">
                     <p>You can create your own drain cleaner using bicarb soda (baking soda) and white vinegar.</p>                
                     <p>Simply pour the bicarb into the drain, followed by the vinegar. Cover the drain to prevent the mixture from bubbling out of the pipe.</p>
                     <br>
@@ -228,7 +227,7 @@ require_once 'includes/reviews.php';
                 </div>
 
             </div>    
-            <div class="col-12 col-lg-6">
+            <div class="col-12 col-lg-6 order-1 order-lg-2">
                 <div class="text-center">                                       
                     <img class="lazy radius-pill-10" data-src="images/half-16.jpg" alt="User" width="auto" height="">
                 </div>
@@ -245,7 +244,7 @@ require_once 'includes/reviews.php';
                 </div>
             </div>
             <div class="col-12 col-lg-6">
-                <div class="ps-0 ps-lg-5">
+                <div class="mt-5 mt-lg-0 pe-0 pe-lg-5">
                     <p>If your kitchen sink is <b>blocked</b>, it could be due to a build up of fat.</p>                
                     <p>You can try pouring a pot of boiling water into the drain. In many cases, this is enough to loosen or dissolve the <b>blockage</b> without having to resort to more drastic measures.</p>
                     <br>
@@ -269,7 +268,7 @@ require_once 'includes/reviews.php';
             </div>
         </div>
 
-        <div class="row row-cols-5">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
             <div class="col card-outer mb-4 mb-xl-0">
                 <div class="card text-center h-100 px-3">
                     <div class="lazy mx-auto shape-circle d-flex justify-content-center align-items-center" data-bg="images/shape-circle-2.jpg">

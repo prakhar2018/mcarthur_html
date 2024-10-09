@@ -68,17 +68,17 @@
 							<a href="index.php" title="Home">Home</a>
 						</li>	
 						<li>
-							<a href="index.php" title="About Us">About Us</a>
+							<a href="#" title="About Us">About Us</a>
 						</li>	
 						<li>
-							<a href="index.php" title="Services">Services</a>
+							<a href="service-details.php" title="Services">Services</a>
 						</li>	
 						<li>
-							<a href="index.php" title="Reviews">Reviews</a>
+							<a href="#" title="Reviews">Reviews</a>
 						</li>						
 						
 						<li>
-							<a href="blocked-shower-drains.php" title="Faqs">Faqs</a>
+							<a href="#" title="Faqs">Faqs</a>
 						</li>
 					
 						<li>

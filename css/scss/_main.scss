@@ -377,17 +377,7 @@ summary {
 	cursor: pointer;
 }
 
-.btn-close {
-	opacity: 1;
-	position: absolute;
-	right: -10px;
-	top: -10px;
-	z-index: 1;
-	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-	&:hover {
-		opacity: 1;
-	}
-}
+
 
 .modal-content {
 	border: 0px;
@@ -543,9 +533,9 @@ textarea.form-control {
 
 .btn-close{
 	background: none;
-	width: 55px;
-	height: 55px;
-	background-color: $secondary_color;
+	width: 50px;
+	height: 50px;
+	background-color: $primary_color;
 	opacity: 1;
 	color: $primary_white;
 	padding: 0px;
@@ -556,7 +546,7 @@ textarea.form-control {
 	z-index: 1;
 	&:hover{
 		opacity: 1;
-		background-color: $primary_color;
+		background-color: $primary_black;
 		color: $primary_white;
 	}
 }
@@ -675,7 +665,7 @@ textarea.form-control {
 	.man-image{
 		position: absolute;
 		right: 0;
-		top: -83px;
+		top: 50px;
 	}
 
 	
@@ -1320,7 +1310,7 @@ textarea.form-control {
 				border: 0px;
 			}
 			.icon-outer{
-				width: 50px;
+				min-width: 50px;
 				height: 50px;
 				@include flex();
 				background: $primary_color;
@@ -1436,9 +1426,7 @@ textarea.form-control {
 	h3{
 		font-size: 1.8em;
 	}
-	p{
-		font-size: 1.2em;
-	}
+	
 	.social-media{
 		border: 1px solid rgba($primary_black, 0.2);
 		padding: 20px 30px;
@@ -1447,9 +1435,10 @@ textarea.form-control {
 			font-size: 1.5em;
 		}
 		li{
-			padding: 0px 10px;
+			padding: 0px 8px;
 			a{
 
+				line-height: 0;
 				font-size: 1.2em;
 			}
 		}
@@ -1466,7 +1455,9 @@ textarea.form-control {
 					content: '';
 					position: absolute;
 					font-family: $icon_font;
-					top: 0;
+					top: 19px;
+					font-size: 0.8em;
+					line-height: 0;
 				}
 				&.disabled{					
 					a{
@@ -1481,13 +1472,13 @@ textarea.form-control {
 			}
 			.next{
 				&:after{
-					content: '\E802';
+					content: '\F006';
 					right: -15px;
 				}
 			}
 			.prev{
 				&:after{
-					content: '\E802';
+					content: '\F007';
 					left: -15px;
 				}
 			}

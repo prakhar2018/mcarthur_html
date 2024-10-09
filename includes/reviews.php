@@ -10,7 +10,7 @@
             </div>
         </div>
 
-        <div class="row mt-0 mt-xl-5">
+        <div class="row mt-5">
             <div class="col-12 col-sm-6 col-xl-4 mb-4 mb-xl-0">
                 <div class="card h-100 bg-white radius-pill-10">
                     <div class="author position-relative mb-4">
